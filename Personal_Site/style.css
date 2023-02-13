@@ -1,0 +1,110 @@
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: white;    
+    margin: 0px;
+}
+
+li {
+    float: left;
+    color: black;
+    padding: 13px 16px;
+    margin-left: 4px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;  
+}
+
+.right {
+    float: right;
+}
+
+.left:hover, .right:hover {
+    background-color: lightblue;
+}
+
+header {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(189, 178, 178);
+}
+
+.pet {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+}
+
+footer {
+    background-color: white;
+    color: white;
+    padding: 13px 16px;
+    height: 30px;
+    position: fixed;
+    width: 98%;
+    bottom: 0;
+  }
+
+  .box2 {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .img2 {
+    height: 45px;
+    width: auto;
+    padding: 0px;
+    margin: 0px; 
+  }
+
+section {
+    border-top: 1px solid black;
+    font-size: large;
+}
+
+section > .sport {
+    height: 160px;
+    width: auto;
+}
+
+section:nth-of-type(odd) > .sport {
+    float: left;
+    margin: 0 25px 25px 0;
+}
+
+section:nth-of-type(even) > .sport {
+    float: right;
+    margin: 0 25px 25px 0;
+}
+
+section > .project {
+    height: 160px;
+    width: auto;
+}
+
+section:nth-of-type(odd) > .project {
+    float: right;
+    margin-right: auto;
+    margin-top: auto;
+}
+   
+section:nth-of-type(even) > .project {
+    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
